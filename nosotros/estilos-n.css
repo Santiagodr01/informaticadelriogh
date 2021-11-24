@@ -1,0 +1,36 @@
+.contenedor{display: grid;
+    grid-template-areas: header nav aside footer;
+}
+
+body{display: grid;
+    font-style:italic;
+    font-size: large;
+background-image: url(../imagenes/fondo.jpg);
+}
+
+.header{display: grid;
+    grid-template-areas:header ;
+    color: rgb(21, 255, 0);
+text-decoration: underline ;
+text-align:left;
+grid-template-rows: 70px;
+font-size: large;}
+
+nav{display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 300px;
+    left: 170px;    
+    color:rgb(21, 255, 0);
+}
+
+aside{display: flex;
+    margin:0px;
+}
+
+
+
+
+footer{display:flex ;
+color: blue;
+font-size: calc(1em + 1vw) }

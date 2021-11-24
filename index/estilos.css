@@ -1,0 +1,70 @@
+body{display: grid;
+     font-style:italic;
+     font-size: large;
+background-image: url(../imagenes/fondo.jpg);
+}
+
+
+.header{display: grid;
+     grid-template-areas:header ;
+     color: rgb(21, 255, 0);
+ text-decoration: underline ;
+ text-align:left;
+ grid-template-rows: 70px;
+ font-size: large;}
+ 
+nav{display: flex;
+     flex-direction: column;
+     position: absolute;
+     top: 300px;
+     left: 170px;    
+     color:rgb(21, 255, 0);
+ }
+ 
+.aside{display: flex;
+     flex-direction: row;}
+
+
+footer{display:flex ;
+ color: blue;
+ font-size: medium;}
+
+@media screen and (min-widht:320px) { .aside, nav {position: absolute; right: 80px;}
+}
+
+@media screen and (max-widht:1200px) { .aside, nav {position: absolute; left: 170px;
+
+
+}
+     
+}
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
