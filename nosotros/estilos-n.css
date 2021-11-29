@@ -1,12 +1,12 @@
-.contenedor{display: grid;
-    grid-template-areas: header nav aside footer;
+.contenedor{width: 80%;
+    max-width: 1000px;
 }
 
 body{display: grid;
     font-style:italic;
     font-size: large;
-background-image: url(../imagenes/fondo.jpg);
-}
+    background-image: url(../imagenes/fondo.jpg);
+    margin: 0%;}
 
 .header{display: grid;
     grid-template-areas:header ;
@@ -19,9 +19,11 @@ font-size: large;}
 nav{display: flex;
     flex-direction: column;
     position: absolute;
-    top: 300px;
-    left: 170px;    
+    left: 150px;  
+    top: 280px;  
     color:rgb(21, 255, 0);
+    
+    
 }
 
 aside{display: flex;
@@ -32,5 +34,10 @@ aside{display: flex;
 
 
 footer{display:flex ;
-color: blue;
-font-size: calc(1em + 1vw) }
+    color: blue;
+    font-size: large;}
+   
+    @media (max-width: 1000px){
+        header{ grid-column-end: auto;
+                text-align: left;}
+}
