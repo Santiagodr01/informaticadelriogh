@@ -67,7 +67,7 @@ footer{position: relative;
 
 table{display: flexbox;
     justify-content: left;
-    color: cyan;
+    color: rgb(3, 238, 238);
     flex-direction: row;
     border: 1px solid;
     margin: 1px;
