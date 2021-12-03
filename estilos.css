@@ -1,0 +1,77 @@
+header{ display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: crimson;
+    margin-top: 30px;
+    font-size: calc(1em + 1vw)}
+
+
+
+
+
+header:hover{color: violet;
+transition-duration: 3s;}
+
+.carousel-inner img {
+    margin: auto;
+  }
+.carousel-item img{
+    margin: auto;}
+
+
+form{display: flex;
+    flex-direction: column;
+    margin: 1%;
+    width: 60%;
+
+
+}
+
+h2{color: crimson;
+   display: flex;
+    justify-content:left;
+    margin: 0%;
+}
+
+
+
+
+
+.boton{display: flex;
+       color: cyan;
+       background-color: darkmagenta;
+
+}
+
+footer{position: relative;
+  bottom: -100px;
+  color: crimson;
+
+}
+
+.footer-tienda{position: absolute;
+    bottom: -100px;
+
+
+}
+
+
+
+
+.redes{display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+    
+}
+
+table{display: flexbox;
+    justify-content: left;
+    color: cyan;
+    flex-direction: row;
+    border: 1px solid;
+    margin: 1px;
+
+    
+}
+
