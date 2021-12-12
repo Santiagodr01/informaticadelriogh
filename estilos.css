@@ -1,16 +1,24 @@
-header{ display: flex;
+.contenedor{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";}
+
+
+
+header{ display: grid;
+    grid-area: header;
     text-align: center;
     flex-direction: column;
     color: crimson;
     margin-top: 30px;
     font-size: calc(1em + 1vw)}
 
-
-
-
-
 header:hover{color: violet;
 transition-duration: 3s;}
+
+
 
 .carousel-inner img {
     margin: auto;
@@ -43,7 +51,7 @@ h2{color: crimson;
 
 }
 
-footer{position: relative;
+footer{display: grid;
   bottom: -100px;
   color: crimson;
 
